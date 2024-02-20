@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 45vmax;
+    background-image: url("assets_hos/banner.jpg");
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 5vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 80%;
+}
+.logo{
+    background-image: url("assets_hos/logo-hos.png");
+    background-size: cover;
+    background-color:rgba(12, 12, 12, 0.343);
+    border-radius: 32px;
+    margin: auto;
+    height: 4rem;
+    width: 7rem;
+}
+.nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.5vmax;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 2px solid rgb(240, 245, 240);
+    border-right: 2px solid rgb(239, 247, 239);
+    border-radius: 2px;
+}
+.nav a:hover{
+    border-bottom: 2px solid rgb(2, 235, 6);
+    border-left: 2px solid rgb(2, 235, 6);
+    border-right: 2px solid rgb(2, 235, 6);
+}
+.dummy-text{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 70%;
+    height: 65%;
+    margin-top: 5vmax;
+    position: relative;
+}
+.banner-text{
+    width: 80%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+}
+.banner-text h1{
+    color: rgb(255 255 255);
+    font-size: 5vmax;
+    text-shadow: 2px 2px 2px rgb(175, 16, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-text span{
+    color: rgb(6, 239, 72);
+    text-shadow: 2px 2px 2px rgb(42, 44, 43);
+    font-size: 5vmax;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-text p{
+    color: azure;
+    font-size: 1.5vmax;
+}
+.banner-text button{
+    background-color: rgb(23, 185, 93);
+    font-size: 1.3vmax;
+    font-weight: 700;
+    width: 25%;
+    height: 12%;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+.emergency{
+    background-color: blue;
+    width: 2.5vmax;
+    height: 10vmax;
+}
