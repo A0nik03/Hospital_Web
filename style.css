@@ -176,14 +176,14 @@
 #img_box{
     border: 3px solid rgb(162, 149, 149);
     position: relative;
-    height: 60%;
+    height: 30vmax;
     width: 30vmax;
     border-radius: 2rem;
 }
 #img_box img{
     object-fit: cover;
     background-position: center center;
-    height: 100%;
+    height: 30vmax;
     width: 30vmax;
     border-radius: 2rem;
     position: absolute;
@@ -192,7 +192,8 @@
 }
 .content_container{
     width: 51vmax;
-    padding: 2.2rem;
+    height: 45vmax;
+    padding: 1.2rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -200,14 +201,13 @@
     align-items: center;
 }
 #content_box{
-    height: 80%;
+    height: 35vmax;
     width: 40vmax;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 1.5rem;
-    margin-bottom: 4rem;
+    gap: 1.2rem;
 }
 #content_box h2{
     font-size: 2.3vmax;
@@ -223,12 +223,11 @@
     color: black;
 }
 #content_box p{
-    font-size: 1.3vmax;
+    font-size: 1.1vmax;
     color: #252424;
 }
 #content_box h3{
-    font-size: 1.6vmax;
-    margin-bottom: 0.5rem;
+    font-size: 1.4vmax;
     font-weight: 500;
     color: #5a5959;
 }
@@ -244,13 +243,14 @@
 }
 
 #solution_box ul li h3{
-    font-size: 1.5vmax;
+    font-size: 1.2vmax;
+    padding-bottom: 0.3rem;
     font-weight: 600;
     color: black;
 }
 #solution_box ul li p{
-    font-size: 1.3vmax;
-    padding-bottom: 0.6rem;
+    font-size: 1.1vmax;
+    padding-bottom: 0.8rem;
     color: #4d4c4c;
 }
 
@@ -262,15 +262,18 @@
     border-radius: 0.5rem;
     font-weight: 700;
     color: white;
-    font-size: 1.2vmax;
+    font-size: 1vmax;
 }
 #solution_button button:hover{
     background-color: rgb(227, 37, 37);
 }
 
+/* ABOUT CARDs */
+
 .about_card_container{
-    padding: 1rem 1rem;
-    height: 40%;
+    padding-top: 15rem;
+    padding: 3rem 3rem;
+    height: 50%;
     width: 100%;
     display: flex;
     gap: 1.5rem;
@@ -301,6 +304,117 @@
 .card_text p{
     font-size: 2vmax;
     font-weight: 500;
+}
+
+/* Appointment */
+
+.appointment_container{
+    margin-top: 2rem;
+    height: 20rem;
+    width: 100vmax;
+    padding: 2.5rem 2.5rem;
+    background-color: rgb(102, 0, 255);
+    display: flex;
+}
+.left_appointment_box{
+    width: 50vmax;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    line-height: 1.2rem;
+}
+.text_appointment{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 35rem;
+}
+.text_appointment h2{
+    line-height: 3rem;
+    font-size: 3vmax;
+    font-weight: 500;
+    color: white;
+}
+.left_appointment_box p{
+    font-size: 1vmax;
+    font-weight: 400;
+    color: white;
+}
+.right_appointment_box{
+    width: 50vmax;
+    height: 100%;
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.details input{
+    background-color:rgb(102, 0, 255);
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1.5px solid rgb(165, 159, 159);
+    width: 17rem;
+    height: 2rem;
+}
+.details select{
+    position: relative;
+    background-color:rgb(102, 0, 255);
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: start;
+    border-bottom: 1.5px solid rgb(165, 159, 159);
+    width: 17rem;
+    height: 2rem;
+}
+.details select::after{
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 1.5px solid transparent;
+    border-color:#fff transparent transparent transparent;
+}
+.details input::placeholder{
+    color: white;
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.appointment_button{
+    align-self: center;
+}
+.appointment_button button{
+    background-color: red;
+    height: 2.5rem;
+    width: 18vmax;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1vmax;
+}
+.appointment_button button:hover{
+    background-color: rgb(227, 37, 37);
 }
 /* urgent section */
 .section-1-sub{
