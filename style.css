@@ -52,6 +52,14 @@
     border-left: 2px solid rgb(2, 235, 6);
     border-right: 2px solid rgb(2, 235, 6);
 }
+.nav input{
+    width: 20%;
+    height: 65%;
+}
+.search{
+    width: 2%;
+    height: 65%;
+}
 .dummy-text{
     display: flex;
     justify-content: space-between;
