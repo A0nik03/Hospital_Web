@@ -676,3 +676,136 @@
 .about_card_container button:hover{
     background-color: rgb(227, 37, 37);
 }
+
+/* Online Virtual Visits */
+.virtual_visits_container{
+    height: 38vmax;
+    width: 100vmax;
+    background-image: url(https://plus.unsplash.com/premium_photo-1699544857174-1876d6db2ac6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4vmax;
+}
+.virtual_visits_box{
+    height: 30vmax;
+    width: 85vmax;
+    background-color: rgb(102, 0, 255);
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+}
+.virtual_visits_content{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vmax;
+    gap: 3vmax;
+}
+.virtual_visits_content h2{
+    font-size: 2.5vmax;
+    font-weight: 500;
+    color: white;
+}
+.virtual_visits_content p{
+    font-size: 1.2vmax;
+    font-weight: 500;
+    line-height: 1.7vmax;
+    color: white;
+}
+.virtual_visits_content button{
+    background-color: red;
+    height: 2.5rem;
+    width: 11vmax;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1vmax;
+}
+.virtual_visits_content button p{
+    font-size: 1.3vmax;
+}
+.virtual_visits_content button:hover{
+    background-color: rgb(227, 37, 37);
+}
+.virtual_visits_img{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/7195424/pexels-photo-7195424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Happy Clients */
+.happy_clients_container{
+    height: 35vmax;
+    width: 100vmax;
+    background-image: url(https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 4vmax;
+}
+.clients_content_container{
+    height: 28vmax;
+    width: 33vmax;
+    background-color: white;
+    border-radius: 1rem;
+    opacity: 0.97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5vmax;
+    gap: 3vmax;
+}
+.clients_content_container h2{
+    font-size: 2.3vmax;
+    font-weight: 500;
+}
+.clients_content_container p{
+    font: 0.8vmax;
+    font-weight: 400;
+}
+.patients_img_container{
+    height: 7vmax;
+    width: 30vmax;
+    display: flex;
+    align-items: center;
+    gap: 1.5vmax;
+}
+.patient_img{
+    height: 6.2vmax;
+    width: 6.2vmax;
+    overflow: hidden;
+    border-radius: 10rem;
+    background-image: url(assets_hos/patient_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.patient_text h3{
+    font-size: 1.5vmax;
+    font-weight: 500;
+}
+.patient_text p{
+    font-size: 1vmax;
+    font-weight: 500;
+}
+
+
+
